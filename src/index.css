@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 999px;
+  padding: 12px;
+  font-size: large;
+}
+
+button:hover {
+  background: rgb(189, 189, 189);
+  scale: 1.2;
+  transition: all 0.5s;
+}
+
+img {
+  border-radius: 20;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
